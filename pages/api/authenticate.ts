@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { API_KEY } from './config'
 
-const API_URL = "https://my.vanmoof.com/api/v8/"
+const API_URL = "https://api.vanmoof-api.com/v8/"
 
 export default async function handler(
 	req: NextApiRequest,
